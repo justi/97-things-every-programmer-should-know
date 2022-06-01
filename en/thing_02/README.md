@@ -4,7 +4,7 @@ Functional programming has recently enjoyed renewed interest from the mainstream
 
 Mastery of the functional programming paradigm can greatly improve the quality of the code you write in other contexts. If you deeply understand and apply the functional paradigm, your designs will exhibit a much higher degree of *referential transparency*.
 
-Referential transparency is a very desirable property: It implies that functions consistently yield the same results given the same input, irrespective of where and when they are invoked. That is, function evaluation depends less — ideally, not at all — on the side effects of mutable state.
+Referential transparency is a very desirable property: It implies that **functions consistently yield the same results given the same input, irrespective of where and when they are invoked**. That is, function evaluation depends less — ideally, not at all — on the side effects of mutable state.
 
 A leading cause of defects in imperative code is attributable to mutable variables. Everyone reading this will have investigated why some value is not as expected in a particular situation. Visibility semantics can help to mitigate these insidious defects, or at least to drastically narrow down their location, but their true culprit may in fact be the providence of designs that employ inordinate mutability.
 
@@ -17,3 +17,8 @@ Of course, this approach is not optimal in all situations. For example, in objec
 Master the functional programming paradigm so you are able to judiciously apply the lessons learned to other domains. Your object systems (for one) will resonate with referential transparency goodness and be much closer to their functional counterparts than many would have you believe. In fact, some would even assert that the apex of functional programming and object orientation are *merely a reflection of each other*, a form of computational yin and yang.
 
 By [Edward Garson](http://programmer.97things.oreilly.com/wiki/index.php/Edward_Garson)
+
+Summary:
+- Use functional programming principles in OOP to design your systems better
+- Prefer immutable data to make your changes in the system local, not global
+- Prefer pure functions (ie. functions with no side effects) to make debugging and testing easier
