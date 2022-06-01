@@ -15,6 +15,7 @@ You'll also find that **there's a gap between what users say they want and what 
 
 by [Giles Colborne](http://programmer.97things.oreilly.com/wiki/index.php/Giles_Colborne)
 
+Summary:
 - Watch your users use similar software, make them talk about their process, give them realistic tasks to complete
 - Don't interrupt, don't suggest solutions, just watch and listen
 - If you need to design a help text for them make it close to the problem they are solving, they are not going to browse the system
