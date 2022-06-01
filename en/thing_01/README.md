@@ -13,3 +13,10 @@ There are times when you must incur technical debt to meet a deadline or impleme
 Pay off technical debt as soon as possible. It would be imprudent to do otherwise.
 
 By [Seb Rose](http://programmer.97things.oreilly.com/wiki/index.php/Seb_Rose)
+
+Summary:
+- deliberate technical debt is a debt when you chose "doing it quick" instead of "doing it right" and you are going to fix it later
+- the benefits from this approach occur short-term, but starting now you have to pay interest on it until it is fully paid off
+- you must track tehnical debt and pay it back as quickly as possible, otherwise things go rapidly downhill
+- if you schedule repayment of the debt in the next iteration, the cost will be minimal
+- track and measure the costs of the debt is your must and it could help with prioritizing of the repayment
